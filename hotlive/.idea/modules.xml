@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hotlive.iml" filepath="$PROJECT_DIR$/hotlive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hotliveframework/hotliveframework.iml" filepath="$PROJECT_DIR$/../hotliveframework/hotliveframework.iml" />
     </modules>
   </component>
 </project>

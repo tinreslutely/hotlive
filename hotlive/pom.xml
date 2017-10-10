@@ -6,7 +6,11 @@
 
     <groupId>com.awinq</groupId>
     <artifactId>hotlive</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../hotliveframework</module>
+    </modules>
 
     <dependencies>
         <!--Unit test-->
@@ -114,7 +118,7 @@
             <version>4.1.7.RELEASE</version>
         </dependency>
 
-        <!-- redis客户端:Jedis -->
+        <!-- redis client:Jedis -->
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
@@ -131,13 +135,36 @@
             <version>1.0.8</version>
         </dependency>
 
-        <!-- Map工具类 -->
+        <!-- Map Tool -->
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
             <version>3.2</version>
         </dependency>
 
+        <!--Apache Commons Lang-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.3.2</version>
+        </dependency>
+
+        <!--Apache Commons Collections-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-dbutils</groupId>
+            <artifactId>commons-dbutils</artifactId>
+            <version>1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+            <version>2.0.1</version>
+        </dependency>
     </dependencies>
 
 </project>
